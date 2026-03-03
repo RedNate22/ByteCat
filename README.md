@@ -30,3 +30,7 @@ ByteCat is displayed in all of it's pixelated glory using the [Waveshare 1.8inch
 
 [Documentation](https://github.com/waveshare/WSLCD1in8)
 
+### Technical Limitations 
+Due to the technical limitations of the Waveshare TFT Screen, the screen can take a significantly long time (30-60 seconds) to refresh each frame. To combat this, my intent was to use the Microbit's LEDs to give faster real-time updates of ByteCat's moods and statuses. This also proposed a challenge on how often ByteCat's statuses should update, as faster real-time updates meant a constant refreshing of the screen, resulting in glitchy or slow gameplay.
+
+Furthermore, the memory constraints of the BBC Microbit itself also placed constraints on the project scope.
