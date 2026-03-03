@@ -11,6 +11,15 @@ Happiness, hunger, and energy each dynamically affect one another and update ove
 <img src="images/gameplay_example_3.jpg" width="300">
 If ByteCat's energy is too low, it will need a good rest.
 
+## Technical
+ByteCat was developed entirely within [Microsoft MakeCode](https://makecode.microbit.org/)'s code editor using Python.
+
+### How to run
+1. Download the [ByteCat.py](https://github.com/RedNate22/ByteCat/blob/main/ByteCat.py) file
+2. Open this file within MakeCode
+3. Press 'Download' to download the .hex version
+4. Transfer the hex file to your connected BBC Microbit
+
 ### Microbit Integration
 The BBC Microbit's built-in LEDs showcase what ByteCat is thinking!
 
@@ -20,3 +29,4 @@ The BBC Microbit's built-in LEDs showcase what ByteCat is thinking!
 ByteCat is displayed in all of it's pixelated glory using the [Waveshare 1.8inch TFT Screen](https://smalldevices.com.au/products/waveshare-1-8inch-160x128-tft-colour-display-for-the-bbc-micro-bit?variant=12582303334423) for the Microbit.
 
 [Documentation](https://github.com/waveshare/WSLCD1in8)
+
